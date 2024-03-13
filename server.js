@@ -8,7 +8,7 @@ const app = express()
 app.use(express.json())
 // app.use(cors())
 app.use(cors({
-    origin: ['http://localhost:3000', 'https://react-occ.vercel.app'],
+    origin: ['http://localhost:3000', 'https://react-proj-app-api.onrender.com'],
 }))
 // routes
 app.use('/API/Posts', require('./src/Views/Post'))
